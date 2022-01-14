@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+client/vueapp/node_modules/
+
