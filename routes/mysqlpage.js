@@ -7,6 +7,7 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/query", function (req, res, next) {
+  // debugger;
   var obj = {};
   if (req.query.name) {
     obj.name = req.query.name;
@@ -22,6 +23,8 @@ router.get("/query", function (req, res, next) {
   });
 });
 router.post("/insert", function (req, res, next) {
+  // debugger;
+
   var _id = UUID.v1();
   connection.query(
     `INSERT INTO USER VALUES ("${req.body.name}", "${req.body.age}", "${_id}")`,

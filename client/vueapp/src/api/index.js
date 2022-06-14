@@ -33,3 +33,38 @@ export const removeList = (data) => {
     data,
   });
 };
+
+// 查询
+export const getDesignerList = (params) => {
+  return request({
+    url: "/smform/query",
+    method: "get",
+    params,
+  });
+};
+//  新增
+export const addDesignerList = (data) => {
+  return request({
+    url: "/smform/insert",
+    method: "post",
+    data,
+  });
+};
+
+//  修改
+export const updateDesignerList = (data) => {
+  return request({
+    url: "/smform/update",
+    method: "post",
+    data,
+  });
+};
+
+//  删除
+export const removeDesignerList = (data) => {
+  return request({
+    url: "/smform/remote",
+    method: "post",
+    data,
+  });
+};

@@ -4,7 +4,7 @@ var path = require("path");
 // var cookieParser = require("cookie-parser");
 // var cookieSession = require("cookie-session");
 var logger = require("morgan");
-
+// debugger;
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 // var getArticleList = require("./routes/get_article_list");
@@ -42,12 +42,14 @@ app.use(express.static(path.join(__dirname, "public")));
 //   next();
 // }
 var mysqlpage = require("./routes/mysqlpage");
+var mysqlDesigner = require("./routes/mysqlDesigner");
 // var fileRouter = require("./routes/file");
 // var mutipart = require("./routes/mutipart");
 // var params = require("./routes/params");
 // var routeSeparation = require("./routes/route-separation");
 // var search = require("./routes/search/index");
 app.use("/article", mysqlpage);
+app.use("/smform", mysqlDesigner);
 // app.use("/file", fileRouter);
 // app.use("/mutipart", mutipart);
 // app.use("/params", params);

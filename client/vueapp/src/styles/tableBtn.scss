@@ -1,0 +1,158 @@
+.el-button {
+  font-size: 14px;
+  i {
+    font-size: 16px;
+  }
+  [class^='gd-icon-'] + span {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+}
+.el-form-item__content {
+  padding-right: 10px;
+
+  .el-button--small {
+    padding: 7px 15px;
+  }
+}
+
+// .el-table {
+//   &::before {
+//     display: none;
+//   }
+//   &::after {
+//     display: none;
+//   }
+//   .el-table__fixed {
+//     &::before {
+//       display: none;
+//     }
+//   }
+//   .el-table__fixed-right {
+//     &::before {
+//       display: none;
+//     }
+//   }
+//   td.is-right,
+//   th.is-right {
+//     text-align: left;
+//   }
+// }
+
+// .el-table--border {
+//   border-left: none;
+// }
+// .el-table__header {
+//   border-left: 1px solid #ebeef5;
+// }
+// .el-table__body {
+//   border-left: 1px solid #ebeef5;
+// }
+.avue-crud__menu {
+  .avue-crud__right {
+    button {
+      display: none !important;
+    }
+  }
+}
+.avue-crud__dialog__header {
+  .avue-crud__dialog__menu {
+    display: none;
+  }
+}
+.avue-dialog {
+  .el-dialog {
+    width: 34% !important;
+  }
+  .el-dialog__body {
+    padding: 12px 0px 5px 0px;
+    .avue-group {
+      .avue-group__header {
+        margin-bottom: 10px;
+        height: 32px;
+        padding: 0 24px;
+      }
+      .el-collapse-item__wrap {
+        padding: 0 0px 0 0px;
+        .el-collapse-item__content {
+          .avue-form__group {
+            .el-col-12 {
+              .el-form-item--mini.el-form-item,
+              .el-form-item--small.el-form-item {
+                margin-bottom: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .avue-form__menu {
+      padding-right: 10px;
+    }
+  }
+}
+// .is-scrolling-none {
+//   .el-table__body {
+//     .el-table__row {
+//       td {
+//         .cell {
+//           span {
+//             div {
+//               text-align: left;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+.el-scrollbar {
+  height: 100%;
+}
+
+// .reset-pass-box {
+//   .el-dialog__header {
+//     padding: 13px 0 15px 13px;
+//     .el-dialog__title {
+//       font-size: 14px;
+//       font-family: PingFangSC-Semibold, PingFang SC;
+//       font-weight: 600;
+//       color: #303134;
+//       line-height: 14px;
+//     }
+//     .el-dialog__headerbtn {
+//       top: 13px;
+//     }
+//   }
+//   .el-dialog__body {
+//     padding: 0 20px 1px 0;
+//     .el-form-item__label {
+//       font-size: 14px;
+//       font-family: PingFangSC-Regular, PingFang SC;
+//       font-weight: 400;
+//       color: #606266;
+//     }
+//     .el-input {
+//       input {
+//         height: 32px;
+//         line-height: 32px;
+//       }
+//     }
+//     .pop-box-button {
+//       .el-form-item__content {
+//         display: flex;
+//         flex-direction: row-reverse;
+//         .el-button {
+//           padding: 10px 15px;
+//           i {
+//             margin-right: 5px;
+//           }
+//         }
+//         .el-button--primary {
+//           margin-right: 10px;
+//         }
+//       }
+//     }
+//   }
+// }

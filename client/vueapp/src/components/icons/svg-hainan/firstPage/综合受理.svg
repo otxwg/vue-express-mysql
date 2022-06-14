@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236px" height="278px" viewBox="0 0 236 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>综合受理</title>
+    <defs>
+        <linearGradient x1="83.7939773%" y1="-18.5910088%" x2="13.9666684%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00C8F8" offset="0%"></stop>
+            <stop stop-color="#136ADC" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="236" height="278" rx="8"></rect>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#38A9FC" offset="0%"></stop>
+            <stop stop-color="#2592E4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="登录页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-397.000000, -393.000000)">
+            <g id="编组-14" transform="translate(377.000000, 357.000000)">
+                <g id="综合受理" transform="translate(20.000000, 36.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="蒙版" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <polyline id="list_bg_蓝色" fill="url(#linearGradient-4)" opacity="0.227469308" mask="url(#mask-3)" transform="translate(213.500000, 198.000000) scale(1, -1) translate(-213.500000, -198.000000) " points="30 118 397 278 397 118"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

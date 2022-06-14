@@ -6,6 +6,7 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/query", function (req, res, next) {
+  debugger;
   var obj = {};
   if (req.query.name) {
     obj.name = req.query.name;

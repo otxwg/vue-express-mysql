@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="表单配置-表单编辑（在线vue表单）" transform="translate(-254.000000, -326.000000)">
+            <g id="控件" transform="translate(226.000000, 219.000000)">
+                <g id="编组-10" transform="translate(16.000000, 0.000000)">
+                    <g transform="translate(-16.000000, 11.000000)" id="编组-3">
+                        <g id="编组-5" transform="translate(16.000000, 88.000000)">
+                            <g id="文本控件" transform="translate(12.000000, 8.000000)">
+                                <g id="弹框" transform="translate(2.000000, 2.000000)">
+                                    <path d="M13,2 C13.5522847,2 14,2.44771525 14,3 L14,15 C14,15.5522847 13.5522847,16 13,16 L1,16 C0.44771525,16 0,15.5522847 0,15 L0,3 C0,2.44771525 0.44771525,2 1,2 L13,2 Z M13,8 L1,8 L1,15 L13,15 L13,8 Z M13,3 L1,3 L1,7 L13,7 L13,3 Z M5.5,5 C5.77614237,5 6,5.22385763 6,5.5 C6,5.77614237 5.77614237,6 5.5,6 L2.5,6 C2.22385763,6 2,5.77614237 2,5.5 C2,5.22385763 2.22385763,5 2.5,5 L5.5,5 Z" id="形状结合" fill="#303133"></path>
+                                    <path d="M15,0 C15.5522847,0 16,0.44771525 16,1 L16,13 C16,13.5522847 15.5522847,14 15,14 L15,1 L2,1 C2,0.44771525 2.44771525,0 3,0 L15,0 Z" id="形状结合" fill="#409EFF" fill-rule="nonzero"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

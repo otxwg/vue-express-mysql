@@ -1,0 +1,92 @@
+.el-dropdown-menu__item {
+  font-size: 12px !important;
+  line-height: 28px !important;
+}
+
+.el-card.is-always-shadow {
+  flex-direction: column;
+  box-shadow: none;
+  display: flex;
+  border: none !important;
+}
+
+.el-scrollbar__view {
+  height: 100%;
+}
+
+.el-menu--horizontal {
+  border-bottom: none !important;
+}
+
+.el-menu {
+  border-right: none !important;
+}
+
+.el-menu--display,
+.el-menu--display + .el-submenu__icon-arrow {
+  display: none;
+}
+
+
+.el-message__icon,
+.el-message__content {
+  display: inline-block;
+}
+
+.el-date-editor .el-range-input,
+.el-date-editor .el-range-separator {
+  height: auto;
+  overflow: hidden;
+}
+
+.el-dialog__wrapper {
+  z-index: 2048;
+}
+
+.el-main {
+  padding: 0 !important;
+}
+
+.el-dropdown-menu__item--divided:before, .el-menu, .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover, .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent;
+}
+.el-radio{
+  margin-right: 10px;
+}
+.el-tree-node.is-current>.el-tree-node__content{color:#409EFF;background-color: #ebf4fe;}
+.el-dialog {
+  margin-top: 10vh!important;// 统一风格
+  .el-dialog__title{
+    font-size: unset;
+  }
+  .el-dialog__header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .el-dialog__body {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .el-dialog__headerbtn {
+    top: 10px;
+  }
+}
+
+.el-dropdown-menu__item--divided:before, .el-menu, .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover, .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent !important;
+}
+.el-input-number .el-input__inner {
+  text-align: left;
+}
+.el-card__header {
+  padding: 6px 18px !important;
+}
+
+.el-card__body {
+  flex: 1;
+  padding: 16px !important;
+}
+
+.el-divider--horizontal {
+  margin: 12px 0 !important;
+}

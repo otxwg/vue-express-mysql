@@ -1,0 +1,41 @@
+// base color
+$blue: #324157;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+$subMenuActiveText: #20b86b;
+// 导航菜单
+$menuText: #ffffff;
+// 一级菜单鼠标以及选中上去字体颜色
+$menuActiveText: #28c3ff;
+// 导航菜单背景颜色以及一级菜单颜色
+$menuBg: #41526e;
+// 二级菜单颜色
+$nestMenuBg: #2f425f;
+
+// 一级菜单鼠标移上去以及选中背景颜色
+$menuHover: linear-gradient(90deg, rgba(32, 130, 235, 1) 0%, rgba(32, 180, 235, 1) 100%);
+
+$subMenuBg: #ffffff;
+// 二级菜单鼠标移上去以及选中背景颜色
+$subMenuHover: linear-gradient(90deg, #2082eb 0%, #20b4eb 100%);
+
+$sideBarWidth: 160px;
+// 主题色,仅支持16进制的颜色，不支持单词，比如red
+$themeColor: #1e81f1;
+// 导出颜色变量
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  themeColor: $themeColor;
+}

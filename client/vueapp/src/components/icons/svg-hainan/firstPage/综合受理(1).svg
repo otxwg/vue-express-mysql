@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236px" height="278px" viewBox="0 0 236 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>综合受理</title>
+    <defs>
+        <linearGradient x1="78.619733%" y1="0%" x2="24.3044379%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FEDB1E" offset="0%"></stop>
+            <stop stop-color="#DDC12E" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="236" height="278" rx="8"></rect>
+    </defs>
+    <g id="登录页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-909.000000, -393.000000)">
+            <g id="编组-14" transform="translate(377.000000, 357.000000)">
+                <g id="综合受理" transform="translate(532.000000, 36.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="蒙版" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <polyline id="list_bg_蓝色" fill="#FFE486" opacity="0.198381696" mask="url(#mask-3)" transform="translate(213.500000, 198.000000) scale(1, -1) translate(-213.500000, -198.000000) " points="30 118 397 278 397 118"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

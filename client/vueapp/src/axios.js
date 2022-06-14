@@ -30,3 +30,9 @@ axios.interceptors.response.use(
   }
 );
 export default axios;
+
+export const getDesignerUrl = () => {
+  return (
+    Vue.prototype.setAgentApi("VUE_APP_DESIGNER_URL") + Vue.prototype.gdbpm
+  );
+};
