@@ -1,7 +1,7 @@
 # vue-express-mysql
 
 vue-express-mysql-demo
-npm install
+#### npm install
 
 ### 先启动 mysql 服务 mysql 编码必须是 utf8
 
