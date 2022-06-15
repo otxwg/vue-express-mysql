@@ -1,31 +1,18 @@
-import Layout from "../../src/layout/index";
+import Layout from "@/layout/index";
 export default [
-  // {
-  //   path: "/vuedesigner",
-  //   component: () => import("../../src/detail/formVueDesign"),
-  // },
-  // {
-  //   path: "/",
-  //   component: () => import("../../src/components/DesignerList"),
-  // },
-  // {
-  //   path: "render",
-  //   component: () => import("../../src/components/render"),
-  // },
-  // 跳转启动流程
   {
-    path: "/",
+    path: "/DesignerList",
     component: Layout,
     isDetail: false,
-    // redirect: "/vuedesigner",
     children: [
       {
-        path: "/",
+        path: "/DesignerList",
         meta: {
           i18n: "DesignerList",
           title: "列表",
+          isDetail: false,
         },
-        component: () => import("../../src/components/DesignerList"),
+        component: () => import("@/view/designerList"),
       },
     ],
   },
@@ -43,7 +30,7 @@ export default [
           isDetail: true,
           title: "vue定制页",
         },
-        component: () => import("../../src/detail/formVueDesign"),
+        component: () => import("@/components/formVueDesign"),
       },
     ],
   },
@@ -51,17 +38,17 @@ export default [
     path: "/render/:id",
     name: "render",
     component: Layout,
-    isDetail: true,
+    isDetail: false,
     children: [
       {
         path: "/render/:id",
         name: "render",
         meta: {
           i18n: "render",
-          isDetail: true,
+          isDetail: false,
           title: "vue定制页",
         },
-        component: () => import("../../src/view/form-custom/index"),
+        component: () => import("@/view/form-custom/index"),
       },
     ],
   },

@@ -47,9 +47,6 @@
   </div>
 </template>
 <script>
-// import { mapGetters } from "vuex";
-// import { validatenull } from '@/projects/system/util/validate'
-
 export default {
   name: "sidebarItem",
   data() {
@@ -82,9 +79,7 @@ export default {
   },
   created() {},
   mounted() {},
-  computed: {
-    // ...mapGetters(["roles"]),
-  },
+  computed: {},
   methods: {
     generateTitle(item) {
       return item.menuName;
@@ -99,9 +94,7 @@ export default {
       item.meta = item.meta || {};
       return item.meta.roles ? item.meta.roles.includes(this.roles) : true;
     },
-    // validatenull(val) {
-    //   return validatenull(val);
-    // },
+
     /**
      * 判断是否为空
      */
@@ -131,9 +124,6 @@ export default {
       return false;
     },
     open(item) {
-      debugger;
-      // if (this.screen <= 1) this.$store.commit("SET_COLLAPSE");
-      // this.$router.push(item.path);
       // 命名的路由
       this.$router.push({ name: "render", params: { id: item.viewId } });
     },

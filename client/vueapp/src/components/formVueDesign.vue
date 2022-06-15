@@ -154,15 +154,11 @@
         </div>
       </template>
     </gdDialog>
-    <!-- <menu-dialog v-if="showDialogMenu" ref="menuRef" :type="'edit'" :current-row="currentRow" /> -->
   </div>
 </template>
 <script>
-const GdForm = () => import("../onlineVueEditor/components/form-designer");
-// import { bpmFormViewSaveVueForm, getEditData, getVueBoEntInfo, saveVueFormAndBo } from './api/wfruntime'
-// import { typeList, printList } from './api/wfruntime'
-// import { submit, listByEntity, updatePartColumn } from './api/bpm-approve-comp'
-// import MenuDialog from './menu/add-edit-dialog'
+const GdForm = () => import("./onlineVueEditor/components/form-designer");
+
 import {
   getDesignerList,
   addDesignerList,
@@ -173,7 +169,6 @@ export default {
   name: "gd_form_design_item",
   components: {
     GdForm: GdForm,
-    // MenuDialog
   },
   data() {
     return {
@@ -308,18 +303,7 @@ export default {
         this.moduleObj = {};
       }
     },
-    setInitData() {
-      // printList().then((res) => {
-      //   if (res.code === 200) {
-      //     this.printData = res.data.records || [];
-      //   }
-      // });
-      // typeList().then((res) => {
-      //   if (res.code === 200) {
-      //     this.typeData = res.data || [];
-      //   }
-      // });
-    },
+    setInitData() {},
     // 生成元数据
     productionMetadata(val) {
       if (this.viewId === "") {
@@ -480,17 +464,7 @@ export default {
       this.saveForm();
     },
     // 获取表单模板
-    async getListByEntity() {
-      // const params = {
-      //   compValue: "",
-      //   compKey: "",
-      //   typeCode: "formModule",
-      //   current: 1,
-      //   size: 1000,
-      // };
-      // const dataSys = await listByEntity(params);
-      // this.formModuleList = dataSys.data.records || [];
-    },
+    async getListByEntity() {},
   },
 
   mounted() {

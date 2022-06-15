@@ -1,7 +1,5 @@
 <template>
   <div class="avue-sidebar" :style="style">
-    <!-- <div style="color:white">{{ defalutTagValue }}</div> -->
-    <!-- <logo /> -->
     <el-scrollbar style="height: 100%">
       <div v-if="!menu.length" class="avue-sidebar--tip">没有发现菜单</div>
       <el-menu
@@ -24,18 +22,14 @@
 </template>
 
 <script>
-// import { mapGetters } from "vuex";
-// import logo from '../logo'
 import sidebarItem from "./sidebarItem";
-// import { validatenull } from '@/projects/system/util/validate'
-import { getDesignerList } from "../../api/index";
+import { getDesignerList } from "@/api/index";
 export default {
   name: "Sidebar",
   components: { sidebarItem },
   data() {
     return {
-      // validatenull: validatenull,
-      defalutTagValue: "",
+      defalutTagValue: "/DesignerList",
       menuProps: {
         label: "menuName",
         path: "path",
@@ -44,7 +38,7 @@ export default {
       },
       menu: [
         { menuName: "表单定制", path: "/" },
-        { menuName: "菜单", path: "/render" },
+        // { menuName: "菜单", path: "/render" },
       ],
     };
   },
@@ -52,18 +46,21 @@ export default {
     this.query();
   },
   computed: {
-    // ...mapGetters(['website', 'menu', 'tag', 'screen', 'menuId']),
     ifSideBar() {
       return false;
     },
     style() {
-      return {
-        // background: this.siberMenuConfig.backgroundLeft
-      };
+      return {};
     },
   },
   watch: {
     $route(to, from) {
+      if (to.path === "/") {
+        this.$router.push("/DesignerList");
+      }
+      if (to.meta.isDetail) {
+        return;
+      }
       this.defalutTagValue = to.path;
     },
   },

@@ -1,19 +1,15 @@
 // ele样式覆盖
-@import './element-ui.scss';
-// 顶部右侧显示
-@import './top.scss';
-// 导航标签
-@import './tags.scss';
+@import "./element-ui.scss";
+
 // 工具类函数
-@import './mixin.scss';
+@import "./mixin.scss";
 // 侧面导航栏
-@import './sidebar.scss';
-//适配
-@import './media.scss';
+@import "./sidebar.scss";
+
 //通用配置
-@import './normalize.scss';
+@import "./normalize.scss";
 //方案配置
-@import './el-common.css';
+@import "./el-common.css";
 a {
   text-decoration: none;
   color: #333;
@@ -27,14 +23,7 @@ a {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.avue-view,
-#avue-view {
-  position: relative;
-  background: white;
-}
-.avue-view {
-  height: 100%;
-}
-.el-default-bg-color{
-  background: #f0f0f0!important;
+
+.el-default-bg-color {
+  background: #f0f0f0 !important;
 }

@@ -1,7 +1,7 @@
 const Qs = require("qs");
 import Vue from "vue";
 // import { default as request } from '@wfruntime/util/request'
-import request from "../../axios";
+import request from "@/axios";
 const getBaseUrl = () => {
   return Vue.prototype.setAgentApi("VUE_APP_DESIGNER_URL");
   // return Vue.prototype.Vue.prototype.setAgentApi('VUE_APP_DESIGNER_URL')

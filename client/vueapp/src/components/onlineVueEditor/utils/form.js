@@ -1,7 +1,7 @@
 import newVue from "vue";
 // import { default as request, getDesignerUrl } from "@wfruntime/util/request";
-import request from "../../axios";
-import { getDesignerUrl } from "../../axios";
+import request from "@/axios";
+import { getDesignerUrl } from "@/axios";
 import Qs from "qs";
 
 export const propsCommon = {

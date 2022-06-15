@@ -412,7 +412,7 @@ import AddItem from "../../../common/add-item.vue";
 import { genVueData } from "../../../../utils/vue2js-generator";
 import { defaultCode } from "./default_code";
 // import { default as request, getDesignerUrl } from '@wfruntime/util/request'
-import request from "../../../../../axios";
+import request from "@/axios";
 const Qs = require("qs");
 export default {
   name: "gdTable-widget",

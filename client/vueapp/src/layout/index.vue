@@ -1,33 +1,18 @@
 <template>
-  <div class="avue-contail">
-    <div class="avue-layout">
-      <div class="avue-main">
-        <div class="avue-left">
-          <sidebar />
-        </div>
-        <div
-          style="
-            height: calc(100% - 48px);
-            overflow-y: auto;
-            overflow-x: hidden;
-          "
-          id="avue-view"
-        >
-          <router-view class="avue-view" />
-        </div>
-      </div>
+  <div class="avue-warp">
+    <div class="avue-left">
+      <sidebar />
+    </div>
+    <div class="avue-main">
+      <router-view class="avue-view" />
     </div>
   </div>
 </template>
 
 <script>
-// import { mapGetters } from 'vuex'
-
-// import top from "./top";
 import sidebar from "./sidebar";
 export default {
   components: {
-    // top,
     sidebar,
   },
   provide() {
@@ -49,9 +34,19 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-#avue-view {
-  & > div {
+.avue-warp {
+  height: 100%;
+  display: flex;
+  .avue-left {
     height: 100%;
+    width: 300px;
+  }
+  .avue-main {
+    height: 100%;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    width: calc(100% - 300px);
   }
 }
 </style>

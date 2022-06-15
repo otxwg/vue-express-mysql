@@ -1,6 +1,6 @@
 <script>
 import cmphtml from "./components/cmphtml.vue";
-import { propsCommon, Vue } from "../../onlineVueEditor/utils/form";
+import { propsCommon, Vue } from "@/components/onlineVueEditor/utils/form";
 function setCss(templateCss) {
   // 动态插入css
   const css = templateCss;

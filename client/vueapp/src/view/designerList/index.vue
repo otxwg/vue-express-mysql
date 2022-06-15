@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="designer-list">
     <el-form ref="form" label-width="80px" style="display: flex" inline>
       <el-form-item label="名称">
         <el-input v-model="name"></el-input>
@@ -70,7 +70,7 @@ import {
   addDesignerList,
   updateDesignerList,
   removeDesignerList,
-} from "../api/index";
+} from "@/api/index";
 export default {
   name: "DesignerList",
   data() {
@@ -166,6 +166,10 @@ export default {
 };
 </script>
 <style scoped>
+.designer-list {
+  padding: 16px;
+  box-sizing: border-box;
+}
 h1,
 h2 {
   font-weight: normal;

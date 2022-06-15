@@ -1,9 +1,9 @@
 // select cascader checkbox radio 数据项获取
 // import { dictTree } from '@/projects/system/api/system/dict'
 // import request from "@wfruntime/util/request"
-import request from "../../../../../axios";
+import request from "@/axios";
 const Qs = require("qs");
-import { throttle } from "../../../../../util/index";
+import { throttle } from "@/util/index";
 export default {
   data() {
     return {

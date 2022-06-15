@@ -44,7 +44,7 @@
 <script>
 import i18n from "../../../../utils/i18n";
 // import { default as request, getDesignerUrl } from '@wfruntime/util/request'
-import request from "../../../../../axios";
+import request from "@/axios";
 const Qs = require("qs");
 export default {
   name: "gdEchart-widget",
